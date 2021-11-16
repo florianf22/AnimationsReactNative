@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Image, Text, View, StyleSheet } from 'react-native';
 import { useFonts } from 'expo-font';
 //
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 export default () => {
   const [loaded] = useFonts({
